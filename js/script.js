@@ -1356,7 +1356,7 @@
 							refreshInterval: 40,
 							from:            0,
 							to:              parseInt($this.text(), 10),
-							speed:           $this.attr("data-speed") || 1000
+							speed:           $this.attr("data-speed") || 2500
 						});
 						$this.addClass('animated');
 					}
